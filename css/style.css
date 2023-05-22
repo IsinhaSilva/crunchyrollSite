@@ -7,6 +7,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .slider {
@@ -85,4 +86,76 @@ body {
 
 #radio4:checked~.navigation-auto .auto-btn4 {
     background-color: rgb(252, 121, 73);
+}
+
+.cabecalho {
+    position: relative;
+    z-index: 10;
+    padding-left: 300px;
+    margin-top: -658px;
+
+}
+
+.cabecalho img {
+    width: 160px;
+    margin-left: -45%;
+}
+
+.cabecalho ul li {
+    list-style: none;
+    margin-left: 220px;
+    text-align: center;
+}
+
+.cabecalho .decor li {
+    border: 2px solid white;
+    width: 130px;
+    height: 30px;
+}
+
+.cabecalho a {
+    color: white;
+}
+
+.cabecalho a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.descr {
+    position: relative;
+    margin-top: -140;
+
+}
+
+.descr h1 {
+    color: white;
+    text-align: center;
+}
+
+
+.teste {
+    text-align: center;
+    position: relative;
+    margin-top: -140;
+
+}
+
+.teste a {
+    border: 2px solid orangered;
+    width: 1090px;
+    height: 45px;
+}
+
+.teste a {
+    color: black;
+    background-color: orangered;
+}
+
+.teste a:hover {
+    color: black;
+    background-color: rgb(240, 89, 34);
+    border: rgb(240, 89, 34);
+    text-decoration: none;
 }
